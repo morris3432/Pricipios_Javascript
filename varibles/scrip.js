@@ -13,3 +13,8 @@ document.write(nombre,"<br>", //salto de lineas "<br>"
                is_null,"<br>",
                persona.Edad //variable tipo objetos
                ); // salida del mensaje o resultado
+
+
+if (nombre=='Hola mundo'){
+    document.write('hola')
+}
