@@ -16,8 +16,8 @@ document.write(nombre,"<br>", //salto de lineas "<br>"
 
 
 if (nombre=='Hola mundo'){
-    document.write('si')
+    document.write('<br>','si')
 }
 else{
-    document.write('No')
+    document.write('<br>','No')
 }
