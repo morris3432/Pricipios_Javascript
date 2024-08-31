@@ -1,5 +1,5 @@
 //variables en javascript (tipado dinamico)
-let nombre ='Hola mundo'; //variable tipo cadenas de caracter
+let nombre ='Pedro'; //variable tipo cadenas de caracter
 let entero=12; //variable tipo entero
 let flotante=1.3; //variable tipo flotante
 let bool = true; // variable buliano
@@ -16,5 +16,8 @@ document.write(nombre,"<br>", //salto de lineas "<br>"
 
 
 if (nombre=='Hola mundo'){
-    document.write('hola')
+    document.write('si')
+}
+else{
+    document.write('No')
 }
