@@ -1,1 +1,1 @@
-#Mini curso de principios de java script
+Mini curso de principios de java script
