@@ -1,4 +1,3 @@
-/*fitrado con for*/
 var postre = [
     {postre1: 'pastel', postre2: 'arepa'},
     {postre1: 'gelatina', postre2: 'rellenitos'},
@@ -8,22 +7,25 @@ var postre = [
     {postre1: 'pan', postre2: 'rellenitos'}
 ];
 
-let pedidos = [];
+let pedidos = [],cantidad=0;
 
-// Filtrando por postre2 === "rellenitos"
+// cantidad de pedidos de relleenitos con for
 for(let i = 0; i < postre.length; i++){
     if(postre[i].postre2 === "rellenitos"){
-        pedidos.push(postre[i].postre1);
+        cantidad++;
     }
 }
 
-console.log(pedidos);
+console.log(cantidad+' personas pidieron rellenitos')
 
-// filtrado con filter 
-let pedido = postre.filter(function(item) {
-    return item.postre2 === 'rellenitos';
-}) .map(function(item){ // transformacion
-    return item.postre1
-});
+// por reduce
+let cantidad_ = postre.reduce(function(contador, item){
+    if (item.postre2==="rellenitos"){
+       return contador+1;
+    } else{
+        return contador;
+    }
 
-console.log(pedido);
+},0);
+
+console.log(cantidad_ + ' personas pidieron rellenitos');
