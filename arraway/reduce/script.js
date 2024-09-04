@@ -2,7 +2,7 @@ var postre = [
     {postre1: 'pastel', postre2: 'arepa'},
     {postre1: 'gelatina', postre2: 'rellenitos'},
     {postre1: 'pan de choclate', postre2: 'platano frito'},
-    {postre1: 'flan', postre2: 'helado'},
+    {postre1: 'flan', postre2: 'rellenitos'},
     {postre1: 'atol', postre2: 'rellenitos'},
     {postre1: 'pan', postre2: 'rellenitos'}
 ];
